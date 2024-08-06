@@ -1,0 +1,64 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: aqua;
+  margin: 0px;
+}
+h1{
+  text-align: center;
+  align-items: center;
+  color: blueviolet;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.input-container input{
+  height: 40px;
+  width: 500px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  border: 2px solid green;
+}
+.input-container button{
+  background-color: red;
+  height: 40px;
+  width: 50px;
+  border-radius:10px ;
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+.message-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  justify-content: space-between;
+width: 700px;
+margin: 10px;
+gap:5px;
+  font-size: 1.25rem;
+  border-radius: 10px;
+
+}
+
+.message-container button{
+  background-color: red;
+  color:white;
+  height: 40px;
+  width: 50px;
+  margin-bottom:18px;
+  margin-right:5px;
+  font-size: 0.75rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  
+}
